@@ -20,6 +20,17 @@ The application uses a YOLOv8-based deep learning model trained for object detec
 
 ## Setup Instructions (Docker)
 
+## How to Use
+- Open the web application
+- Upload an image using the file selector
+- Click the Detect button
+- View the output image with detected objects
+
+## Known Issues / Limitations
+- Large images may take longer to process
+- Model accuracy depends on training dataset quality
+- Only image files are accepted
+
 ### 1. Clone the repository
 ```bash
 git clone https://github.com/Starphy27/yolo-app.git
